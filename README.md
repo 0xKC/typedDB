@@ -1,0 +1,1 @@
+Typescript wrapper for Indexeddb
