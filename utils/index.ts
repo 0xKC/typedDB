@@ -1,5 +1,5 @@
-export function isStoreAvailableInDB(db:IDBDatabase,storeName:String){
+export function isStoreAvailableInDB(db:IDBDatabase,storeName:string){
 
-	return db.objectStoreName.contains(storeName);
+	return db.objectStoreNames.contains(storeName);
 
 }
